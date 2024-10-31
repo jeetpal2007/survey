@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Covid-19 Environmental Impact Survey</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Covid-19 Environmental Impact Survey</h1>
+        <form id="surveyForm">
+            <section>
+                <h2>Section 1: Personal Details</h2>
+               <label for="name">Name:</label>
+<input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+<label for="age">Age:</label>
+<input type="number" id="age" name="age" placeholder="Enter your age" required>
+
+<label for="location">Location:</label>
+<input type="text" id="location" name="location" placeholder="Enter your location" required>
+
+<label for="occupation">Occupation:</label>
+<input type="text" id="occupation" name="occupation" placeholder="Enter your occupation" required>
+
+            </section>
+
+            <section>
+                <h2>Section 2: General Questions</h2>
+                <label>• How would you rate your knowledge of the environmental impact of COVID-19?</label>
+                <div>
+                    <label><input type="radio" name="knowledge" value="Excellent" required> Excellent</label>
+                    <label><input type="radio" name="knowledge" value="Good"> Good</label>
+                    <label><input type="radio" name="knowledge" value="Average"> Average</label>
+                    <label><input type="radio" name="knowledge" value="None"> None</label>
+                </div>
+
+                <label>• Rate the improvement in air quality during COVID-19 on a scale of 1 to 4 (1: Poor, 4: Good)</label>
+                <div>
+                    <label><input type="radio" name="airQuality" value="1" required> 1</label>
+                    <label><input type="radio" name="airQuality" value="2"> 2</label>
+                    <label><input type="radio" name="airQuality" value="3"> 3</label>
+                    <label><input type="radio" name="airQuality" value="4"> 4</label>
+                </div>
+
+                <label>• How did your daily life impact due to the COVID-19 pandemic?</label>
+                <div>
+                    <label><input type="radio" name="dailyImpact" value="No Impact" required> No Impact</label>
+                    <label><input type="radio" name="dailyImpact" value="Low Impact"> Low Impact</label>
+                    <label><input type="radio" name="dailyImpact" value="High Impact"> High Impact</label>
+                    <label><input type="radio" name="dailyImpact" value="Critical Impact"> Critical Impact</label>
+                </div>
+
+                <label>• How often did you notice improved air quality during the COVID-19 lockdown?</label>
+                <div>
+                    <label><input type="radio" name="airQualityNotice" value="Very Often" required> Very Often</label>
+                    <label><input type="radio" name="airQualityNotice" value="Sometimes"> Sometimes</label>
+                    <label><input type="radio" name="airQualityNotice" value="Rarely"> Rarely</label>
+                    <label><input type="radio" name="airQualityNotice" value="Not at All"> Not at All</label>
+                </div>
+
+                <label>• How did you notice changes in wildlife activity in your area during the pandemic?</label>
+                <div>
+                    <label><input type="radio" name="wildlifeActivity" value="Significant Increase" required> Significant Increase</label>
+                    <label><input type="radio" name="wildlifeActivity" value="Some Increase"> Some Increase</label>
+                    <label><input type="radio" name="wildlifeActivity" value="No Change"> No Change</label>
+                    <label><input type="radio" name="wildlifeActivity" value="Decrease"> Decrease</label>
+                </div>
+
+                <label>• Did you change your consumption habits due to COVID-19?</label>
+                <div>
+                    <label><input type="radio" name="consumptionHabits" value="Yes, Significant" required> Yes, Significant</label>
+                    <label><input type="radio" name="consumptionHabits" value="Yes, Somewhat"> Yes, Somewhat</label>
+                    <label><input type="radio" name="consumptionHabits" value="No Change"> No Change</label>
+                    <label><input type="radio" name="consumptionHabits" value="Increased Consumption"> Increased Consumption</label>
+                </div>
+
+                <label>• How often did you engage in sustainable practices (e.g., recycling, reducing waste) during the pandemic?</label>
+                <div>
+                    <label><input type="radio" name="sustainablePractices" value="Very Often" required> Very Often</label>
+                    <label><input type="radio" name="sustainablePractices" value="Sometimes"> Sometimes</label>
+                    <label><input type="radio" name="sustainablePractices" value="Rarely"> Rarely</label>
+                    <label><input type="radio" name="sustainablePractices" value="Not at All"> Not at All</label>
+                </div>
+
+                <label>• Did the pandemic affect your access to green spaces?</label>
+                <div>
+                    <label><input type="radio" name="greenSpaces" value="Yes, Significantly" required> Yes, Significantly</label>
+                    <label><input type="radio" name="greenSpaces" value="Yes, Somewhat"> Yes, Somewhat</label>
+                    <label><input type="radio" name="greenSpaces" value="No Change"> No Change</label>
+                    <label><input type="radio" name="greenSpaces" value="Access Increased"> Access Increased</label>
+                </div>
+
+                <label>• Did you observe any changes in local water bodies during the pandemic?</label>
+                <div>
+                    <label><input type="radio" name="waterBodies" value="Haven't Noticed" required> Haven't Noticed</label>
+                    <label><input type="radio" name="waterBodies" value="Yes"> Yes</label>
+                    <label><input type="radio" name="waterBodies" value="No"> No</label>
+                    <label><input type="radio" name="waterBodies" value="Not Sure"> Not Sure</label>
+                </div>
+
+                <label>• With the increased use of masks and sanitizer, do you think COVID-19 has led to more plastic waste?</label>
+                <div>
+                    <label><input type="radio" name="plasticWaste" value="Yes" required> Yes</label>
+                    <label><input type="radio" name="plasticWaste" value="No"> No</label>
+                    <label><input type="radio" name="plasticWaste" value="In Rare Cases"> In Rare Cases</label>
+                    <label><input type="radio" name="plasticWaste" value="Not Sure"> Not Sure</label>
+                </div>
+
+                <label>• What kind of problems did you face during the COVID-19 pandemic?</label>
+                <div>
+                    <label><input type="radio" name="problems" value="Money" required> Money</label>
+                    <label><input type="radio" name="problems" value="Job"> Job</label>
+                    <label><input type="radio" name="problems" value="House"> House</label>
+                    <label><input type="radio" name="problems" value="Market Crisis"> Market Crisis</label>
+                </div>
+
+                <label>• Does COVID-19 impact the world economy?</label>
+                <div>
+                    <label><input type="radio" name="economicImpact" value="Yes" required> Yes</label>
+                    <label><input type="radio" name="economicImpact" value="No"> No</label>
+                    <label><input type="radio" name="economicImpact" value="In Low Cases"> In Low Cases</label>
+                    <label><input type="radio" name="economicImpact" value="Not Sure"> Not Sure</label>
+                </div>
+
+                <label>•  What, in your opinion, was the most noticeable environmental change during the pandemic?</label>
+                <div>
+                    <label><input type="radio" name="environmentalChange" value="Decrease in Pollution" required> Decrease in Pollution</label>
+                    <label><input type="radio" name="environmentalChange" value="Reduced Traffic"> Reduced Traffic</label>
+                    <label><input type="radio" name="environmentalChange" value="Low Plastic Waste"> Low Plastic Waste</label>
+                    <label><input type="radio" name="environmentalChange" value="Increased Wildlife"> Increased Wildlife</label>
+                </div>
+            </section>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p id="successMessage" class="hidden">Thank you for your response!</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
